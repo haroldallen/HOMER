@@ -1,18 +1,3 @@
-# Possible names
-HOMER
-House
-Operated
-Mobile
-Executer
-Readout
-
-HUMUS
-Home
-Utility
-Machine
-Und (and)
-Shit
-
 # HOMER
 The Home Operated Mobile Executer Readout (HOMER) is a modern home quick access readout that allows the user, aimed at children, to view their school timetable from EdulinkOne, their Air Cadets uniform from Excel, their upcoming events from Google Calendar, some recent news as well as allowing them to perform quick actions like turning on/off their lights or their PC.
 This is the website part of the complete project.
