@@ -1,0 +1,12 @@
+.section.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    font-size: 128px;
+    font-weight: 900;
+    letter-spacing: 10%;
+}

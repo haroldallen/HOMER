@@ -1,0 +1,18 @@
+.music iframe, .aircadets iframe {
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+    height: calc(100% - 26px - 16px);
+}
+.aircadets .iframe-container {
+    overflow: hidden;
+    width: 244px;
+    height: 116px;
+}
+.aircadets iframe {
+    position: relative;
+    top: -245px;
+    left: -372px;
+    height: 500px;
+    width: 800px;
+}

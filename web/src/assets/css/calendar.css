@@ -1,0 +1,9 @@
+.calendar .columns {
+    display: flex;
+    gap: 24px;
+}
+.calendar.list {
+    width: calc(50% - 12px);
+    max-height: 422px;
+    overflow-y: auto;
+}
