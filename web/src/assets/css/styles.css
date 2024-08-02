@@ -27,11 +27,14 @@ p {
 .section.time, .section.calendar {
     grid-column: 2/4;
 }
-.section.time {
+.section.time, .section.music, .section.actions {
     grid-row: 1/2;
 }
 .section.music, .section.uniform {
     grid-column: 1/2;
+}
+.section.actions, .section.news {
+    grid-column: 4/5;
 }
 .titlebutton {
     display: flex;
@@ -73,4 +76,8 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.list .item.homework .activity, .list .item.lesson .subject,
+.list .item.event .summary {
+    font-weight: 700;
 }

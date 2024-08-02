@@ -9,6 +9,7 @@ import Music from "./components/Music";
 import Calendar from "./components/Calendar";
 import AirCadets from "./components/AirCadets";
 import Actions from "./components/Actions";
+import News from "./components/News";
 
 export default function App() {
 
@@ -41,7 +42,7 @@ export default function App() {
         <Time />
         { CONFIGURATION.MODULES.calendar
             ? <Calendar { ...api } /> : <></> }
-        { CONFIGURATION.MODULES.quickActions ? <Actions /> : <></> }
-        { /*{ CONFIGURATION.MODULES.news ? <News /> : <></> }*/}
+        { CONFIGURATION.MODULES.quickActions ? <Actions { ...api } /> : <></> }
+        { CONFIGURATION.MODULES.news ? <News { ...api } /> : <></> }
     </>;
 }

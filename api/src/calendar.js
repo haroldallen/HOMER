@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import process from "process";
 import path from "path";
 import fs from "fs";
@@ -8,6 +11,8 @@ import { google } from "googleapis";
 const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
 const TOKEN_PATH = path.join(process.cwd(), 'token.json');
 const CREDENTIALS_PATH = path.join(process.cwd(), 'credentials.json');
+
+// Functions are copied from Google Calendar API quickstart Node.JS.
 
 async function loadSavedCredentialsIfExist() {
     try {

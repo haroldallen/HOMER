@@ -1,0 +1,19 @@
+.list.news {
+    overflow-y: hidden;
+    height: 100%;
+}
+.item.news {
+    padding: 0 !important;
+    text-decoration: none;
+    color: inherit;
+}
+.item.news img {
+    border-radius: 12px;
+    height: 56px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+}
+.item.news .summary {
+    margin: 8px 24px 8px 12px;
+}

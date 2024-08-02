@@ -13,7 +13,8 @@
         "dotenv": "^8.2.0",
         "edulinkone-api": "^1.1.7",
         "express": "^4.17.1",
-        "googleapis": "^140.0.1"
+        "googleapis": "^140.0.1",
+        "newsapi": "^2.4.1"
     },
     "devDependencies": {
         "nodemon": "^2.0.2"

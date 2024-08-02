@@ -1,6 +1,3 @@
-.list .item.homework .activity, .list .item.lesson .subject {
-    font-weight: 700;
-}
 .list .item.homework > div {
     display: flex;
     gap: 16px;
