@@ -1,5 +1,7 @@
+import API_URL from './config-api.jsx';
+
 const CONFIGURATION = {
-    API_URL: 'http://localhost:3006',
+    API_URL: API_URL,
     MODULES: {
         music: true,
         timetable: true,
