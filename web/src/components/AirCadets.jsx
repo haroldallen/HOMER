@@ -5,7 +5,8 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 export default function AirCadets() {
 
     let activeCell;
-    activeCell = new Date().getDate()*2-1+5;
+    let day = new Date().getDate();
+    activeCell = Math.round(day/3.5*5+4);
 
     let url = `https://onedrive.live.com/view.aspx?resid=40BDF90FAE7050EA%2158653&authkey=!ANYpRbC6owX5NQI&ActiveCell=B${activeCell}`;
 
