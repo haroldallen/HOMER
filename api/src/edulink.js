@@ -20,6 +20,7 @@ export default async function loadEdulink() {
     }
     try {
         homework = await edulink.getCurrentHomework();
+        homework.sort((a, b) => a.due_date > b.due_date ? 1 : -1);
     } catch(err) {
         console.log(err);
     }

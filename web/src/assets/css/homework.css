@@ -1,6 +1,11 @@
 .list .item.homework > div {
     display: flex;
     gap: 16px;
+    max-width: 75%;
+}
+.list .item.homework svg {
+    min-width: 18px;
+    width: 18px;
 }
 .list .item.completed {
     background-color: #C4FFB6;
